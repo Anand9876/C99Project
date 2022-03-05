@@ -7,7 +7,7 @@ def main():
     deleted_folders_count=0
     deleted_files_count=0
 
-    path='C:\Users\ANAND'
+    path='\Path that you want to delete!'
     days=30
     seconds=time.time()-(days*24*60*60)
     if os.path.exists(path):
